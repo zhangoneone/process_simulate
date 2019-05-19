@@ -183,7 +183,6 @@ int idle(priority_queue<PCB>&await,priority_queue<PCB>&block,priority_queue<PCB>
 }
 int main()
 {
-	pcb p;
 	priority_queue<PCB>await;
 	priority_queue<PCB>block;
 	priority_queue<PCB>excinct;
